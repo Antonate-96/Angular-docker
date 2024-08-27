@@ -12,6 +12,6 @@ export class AppComponent {
   title = 'angular';
 }
 
-void (function () {
-  var test = "test";
-}());
+void doSomething();
+
+
