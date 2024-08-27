@@ -12,6 +12,8 @@ export class AppComponent {
   title = 'angular';
 }
 
-void doSomething();
+function foo(x: number, y: string = "default", z?: number) {
+  // ...
+}
 
-
+foo(42, undefined);
